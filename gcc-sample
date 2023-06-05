@@ -1,0 +1,2 @@
+gcc cosine.c -o cosine -lm && ./cosine
+gcc singrapg.c -o singraph -lm && ./singraph
