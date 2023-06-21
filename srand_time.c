@@ -8,7 +8,7 @@ int main()
 	srand((unsigned)time(NULL));
 	for(a=0;a<20;a++)
 	{
-		for(b=0;b<5;b++)
+		for(b=0;b<2;b++)
 		{
 			r=rand();
 			printf("%d\t",r);
