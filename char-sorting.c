@@ -1,24 +1,22 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
-
+   
+  
 int main()
 {
-	const int size = 20;
-	int bubble[size];
-	int inner,outer,temp,x;
-
-	srand((unsigned)time(NULL));
-
+	const int size = 21;
+ 	char bubble[] = "C Programming is fun";
+	char temp;
+	int inner,outer,x;
+ 
 	/* Display original array */
 	puts("Original Array:");
 	for(x=0;x<size;x++)
 	{
-		bubble[x] = rand()%101;
-		printf("%d\t",bubble[x]);
+		printf("%c\t",bubble[x]);
 	}
 	putchar('\n');
-
+ 
 	/* Bubble sort */
 	for(outer=0;outer<size-1;outer++)
 	{
@@ -32,11 +30,11 @@ int main()
 			}
 		}
 	}
-
+ 
 	/* Display sorted array */
 	puts("Sorted Array:");
 	for(x=0;x<size;x++)
-	printf("%d\t",bubble[x]);
+	printf("%c\t",bubble[x]);
 	putchar('\n');
 	return(0);
 }

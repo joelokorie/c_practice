@@ -7,7 +7,7 @@
 
 int main()
 {
-	const float amplitude=70;
+	const float amplitude=15;
 	const float wavelength=0.1;
 	float graph,s,x,lastvalue;
 	
@@ -19,7 +19,7 @@ int main()
 			putchar(' ');
 			lastvalue = x;
 		}
-//		printf("lastvalue = %f and x = %f", lastvalue, x);
+		printf("lastvalue = %f and x = %f", lastvalue, x);
 		if(lastvalue == x-1)
 		{
 			putchar('*');
